@@ -26,9 +26,9 @@ Interactive RNA Polymerase II simulator visualizing eukaryotic transcription, mR
 
 ## 🛠️ Credits & Acknowledgments
 
-* **Claude Sonnet:** Debugging, code generation & architecture.
-* **Replit:** Code improvisation & rapid prototyping.
-* **OpenAI:** Scientific debugging, testing & logic optimization.
+* **Claude Opus 4.8:** Debugging, code generation & architecture.
+* **MoonShot AI:** Code improvisation & rapid prototyping.
+* **Open AI:** Scientific debugging, testing & logic optimization.
 
 ---
 
