@@ -29,7 +29,6 @@ Interactive RNA Polymerase II simulator visualizing eukaryotic transcription, mR
 * **Claude Opus 4.8:** Debugging, code generation & architecture.
 * **MoonShot AI:** Code improvisation & rapid prototyping.
 * **Open AI:** Scientific debugging, testing & logic optimization.
-
 ---
 
 ## 👤 Author
