@@ -4,31 +4,42 @@
 
 # 🧬 Karyon MK-II
 
-**RNA Polymerase II Simulator**
+Interactive RNA Polymerase II simulator visualizing eukaryotic transcription, mRNA processing, and gene expression.
 
 ---
 
-### 📖 Overview
-**Karyon MK-II** is an open-source, offline-ready educational simulator visualizing eukaryotic gene expression. It transforms complex biological processes into an interactive, browser-based experience for students and educators.
+## ✨ Features
 
-### ✨ Features
-* **Transcription Dynamics**: Modeling of RNA Polymerase II activity and termination.
-* **mRNA Processing**: Visualization of 5′ capping, poly(A) tail addition, and RNA splicing.
-* **Cellular Transport**: Simulation of nuclear export and ribosome binding.
-* **Offline-First**: Fully functional in any modern browser without requiring an internet connection.
-
-### 📦 Workflow
-Transcription → Termination → 5′ Capping → Poly(A) Tailing → Splicing → Nuclear Export → Ribosome Binding
+* **Transcription Simulation:** Visualize RNA Polymerase II initiation, elongation, and termination.
+* **mRNA Processing:** Explore 5′ capping, poly(A) tail addition, and RNA splicing.
+* **Cellular Transport:** Follow mRNA export from the nucleus to ribosome binding.
+* **Responsive Design:** Optimized for desktop and mobile devices.
 
 ---
 
-### 📜 License
+## 🚀 Built With & Hosted On
+
+* **Repository:** GitHub
+* **Hosting:** GitHub Pages
+
+---
+
+## 🛠️ Credits & Acknowledgments
+
+* **Claude Sonnet:** Debugging, code generation & architecture.
+* **Replit:** Code improvisation & rapid prototyping.
+* **OpenAI:** Scientific debugging, testing & logic optimization.
+
+---
+
+## 👤 Author
+
+* **Draven Ashcroft**
+  * M.Sc. Ag. Entomology, ASRB NET
+  * DIPS Chain of Institutions
+
+---
+
+## 📜 License
+
 GPL-3.0
-
-### 👨‍🏫 Author
-**Draven-Ashcroft** | DIPS Chain of Institutions, Tanda
-
----
-
-### 🙏 Acknowledgements
-Developed with technical support from OpenAI, Anthropic, and Google. Inspired by NCERT Biology and modern scientific visualization principles.
