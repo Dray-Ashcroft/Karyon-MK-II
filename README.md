@@ -17,8 +17,7 @@ Interactive RNA Polymerase II simulator visualizing eukaryotic transcription, mR
 
 ---
 
-## 🚀 Built With & Hosted On
-
+## 🚀 Built & Hosting
 * **Repository:** GitHub
 * **Hosting:** GitHub Pages
 
@@ -31,7 +30,7 @@ Interactive RNA Polymerase II simulator visualizing eukaryotic transcription, mR
 * **Open AI:** Scientific debugging, testing & logic optimization.
 ---
 
-## 👤 Author
+##  Author
 
 * **Draven Ashcroft**
   * M.Sc. Ag. Entomology, ASRB NET
