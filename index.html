@@ -7,20 +7,20 @@
 <style>
   /* Fonts use system sans-serif fallbacks only — no external
      @import, so privacy browsers like Cromite that block external requests
-     render correctly. The layout specifies 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif
+     render correctly. The layout specifies 'Roboto','Noto Sans',system-ui,sans-serif
      everywhere, which falls back cleanly. */
   * { margin:0; padding:0; box-sizing:border-box; }
   body {
     background:#03050a; min-height:100vh;
     display:flex; flex-direction:column; align-items:center;
-    font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; overflow-x:hidden;
+    font-family:'Roboto','Noto Sans',system-ui,sans-serif; overflow-x:hidden;
     padding:14px 16px 28px; gap:0;
   }
   .header { text-align:center; margin-bottom:12px; margin-top:2px; }
-  .eyebrow { font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; font-size:clamp(15px,4.2vw,24px); font-weight:700; letter-spacing:0.5px; color:rgba(220,245,255,0.95); text-transform:none; margin-bottom:5px; }
-  .title { font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; font-size:clamp(12px,3.2vw,17px); font-weight:400; color:rgba(0,200,255,0.82); letter-spacing:0.3px; }
+  .eyebrow { font-family:'Roboto','Noto Sans',system-ui,sans-serif; font-size:clamp(15px,4.2vw,24px); font-weight:700; letter-spacing:0.5px; color:rgba(220,245,255,0.95); text-transform:none; margin-bottom:5px; }
+  .title { font-family:'Roboto','Noto Sans',system-ui,sans-serif; font-size:clamp(12px,3.2vw,17px); font-weight:400; color:rgba(0,200,255,0.82); letter-spacing:0.3px; }
   .title span { color:#00c8ff; font-weight:600; }
-  .subtitle { font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; font-size:clamp(11px,2.6vw,13px); color:rgba(160,220,255,0.72); font-weight:400; letter-spacing:0.6px; margin-top:4px; }
+  .subtitle { font-family:'Roboto','Noto Sans',system-ui,sans-serif; font-size:clamp(11px,2.6vw,13px); color:rgba(160,220,255,0.72); font-weight:400; letter-spacing:0.6px; margin-top:4px; }
   .dish-wrap { position:relative; flex-shrink:0; }
   canvas.main-canvas { display:block; border-radius:50%; cursor:crosshair; }
   .narrative p { font-size:clamp(11.5px,2.9vw,13px); color:rgba(212,236,255,0.96); line-height:1.6; font-weight:400; transition:opacity 0.3s; }
@@ -31,7 +31,7 @@
   .step-card {
     background:rgba(20,40,70,0.42); border:1px solid rgba(90,200,255,0.20);
     border-radius:9px; padding:9px 11px;
-    font:400 clamp(11px,2.7vw,12.5px)/1.5 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif;
+    font:400 clamp(11px,2.7vw,12.5px)/1.5 'Roboto','Noto Sans',system-ui,sans-serif;
     color:rgba(212,236,255,0.95);
     opacity:0; transform:translateY(10px);
     transition:opacity 0.45s ease, transform 0.45s ease;
@@ -41,7 +41,7 @@
   .step-card strong { color:#3ad2ff; font-weight:600; }
   .step-card .step-title { display:block; color:#8ce0cd; font-weight:600; margin-bottom:2px; letter-spacing:0.3px; }
   .card-strip { width:100%; max-width:520px; display:flex; flex-direction:column; min-height:180px; }
-  .card-strip-title { font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; font-size:10px; letter-spacing:2.5px; color:rgba(0,180,255,0.65); text-transform:uppercase; margin-bottom:6px; padding-left:2px; }
+  .card-strip-title { font-family:'Roboto','Noto Sans',system-ui,sans-serif; font-size:10px; letter-spacing:2.5px; color:rgba(0,180,255,0.65); text-transform:uppercase; margin-bottom:6px; padding-left:2px; }
   .info-card {
     background:rgba(5,15,35,0.85); border:1px solid rgba(0,150,220,0.14);
     border-radius:10px; padding:11px 13px; cursor:pointer; transition:all 0.2s;
@@ -53,7 +53,7 @@
   .info-card.active { background:rgba(0,40,90,0.9); border-color:var(--cc); }
   .card-icon { width:30px; height:30px; border-radius:7px; background:rgba(0,0,0,0.3); border:1px solid var(--cc); display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:14px; }
   .card-body { flex:1; min-width:0; }
-  .card-name { font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; font-size:9.5px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:4px; color:var(--cc); }
+  .card-name { font-family:'Roboto','Noto Sans',system-ui,sans-serif; font-size:9.5px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:4px; color:var(--cc); }
   .card-detail { font-size:clamp(10px,2.5vw,11.5px); color:rgba(170,210,240,0.75); line-height:1.55; font-weight:300; }
   .card-detail strong { color:rgba(210,235,255,0.9); font-weight:500; }
   .card-chevron { font-size:13px; color:var(--cc); opacity:0.35; align-self:center; flex-shrink:0; transition:opacity 0.2s,transform 0.2s; }
@@ -119,7 +119,7 @@
   .spd-btn:disabled { color:rgba(0,200,255,0.18); cursor:default; }
   .spd-div { width:20px; height:1px; background:rgba(0,200,255,0.14); flex-shrink:0; }
   .spd-val {
-    font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; font-size:8.5px; letter-spacing:0.2px;
+    font-family:'Roboto','Noto Sans',system-ui,sans-serif; font-size:8.5px; letter-spacing:0.2px;
     color:rgba(0,200,255,0.78); height:26px;
     display:flex; align-items:center; justify-content:center;
     width:34px; pointer-events:none;
@@ -151,12 +151,12 @@
   .sigma-red.active   { box-shadow:0 0 9px 2px rgba(255,72,72,0.65); }
   .sigma-red:disabled, .sigma-green:disabled { cursor:default; }
   .sigma-label {
-    font-family:'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; font-size:8.5px;
+    font-family:'Roboto','Noto Sans',system-ui,sans-serif; font-size:8.5px;
     color:rgba(190,210,255,0.55); pointer-events:none;
   }
   .sigma-hint {
     width:100%; max-width:520px; margin:-4px 0 10px;
-    font:500 0.74rem/1.35 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif;
+    font:500 0.74rem/1.35 'Roboto','Noto Sans',system-ui,sans-serif;
     color:rgba(190,215,255,0.82); text-align:left;
   }
   .sigma-hint .geo-glyph {
@@ -177,11 +177,11 @@
   }
   #organelle-card.hidden { opacity:0; pointer-events:none; }
   .ocard-header { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:9px; }
-  #ocard-title { font:700 0.92rem/1.3 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; color:rgba(220,195,255,1); letter-spacing:0.3px; }
+  #ocard-title { font:700 0.92rem/1.3 'Roboto','Noto Sans',system-ui,sans-serif; color:rgba(220,195,255,1); letter-spacing:0.3px; }
   #ocard-close { background:none; border:none; cursor:pointer; color:rgba(180,155,225,0.60); font-size:1.15rem; line-height:1; padding:0 0 0 10px; flex-shrink:0; transition:color 0.15s; }
   #ocard-close:hover { color:#fff; }
-  #ocard-body { font:400 0.80rem/1.58 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; color:rgba(195,180,228,0.88); }
-  #ocard-tag { display:inline-block; margin-top:9px; font:600 0.68rem/1 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif; letter-spacing:1.5px; text-transform:uppercase; color:rgba(140,100,255,0.75); background:rgba(140,100,255,0.10); border:1px solid rgba(140,100,255,0.22); border-radius:4px; padding:3px 7px; }
+  #ocard-body { font:400 0.80rem/1.58 'Roboto','Noto Sans',system-ui,sans-serif; color:rgba(195,180,228,0.88); }
+  #ocard-tag { display:inline-block; margin-top:9px; font:600 0.68rem/1 'Roboto','Noto Sans',system-ui,sans-serif; letter-spacing:1.5px; text-transform:uppercase; color:rgba(140,100,255,0.75); background:rgba(140,100,255,0.10); border:1px solid rgba(140,100,255,0.22); border-radius:4px; padding:3px 7px; }
   /* ── RNA processing control buttons (UI only). These replace the
      σ-factor green/red controls in their exact slot — same pill,
      same position — once hnRNA has fully recentred and Pol II/DNA
@@ -262,7 +262,7 @@
      fades in, holds briefly, then fades out on its own. */
   .mrna-export-hint {
     width:100%; max-width:520px; margin:-4px 0 10px;
-    font:400 0.70rem/1.3 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif;
+    font:400 0.70rem/1.3 'Roboto','Noto Sans',system-ui,sans-serif;
     color:rgba(140,235,190,0.80); text-align:left;
     opacity:0; transition:opacity 0.7s ease;
     pointer-events:none;
@@ -272,7 +272,7 @@
      translation begins. Same subtle treatment as the export hint. */
   .translation-hint {
     width:100%; max-width:520px; margin:-4px 0 10px;
-    font:500 0.74rem/1.3 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif;
+    font:500 0.74rem/1.3 'Roboto','Noto Sans',system-ui,sans-serif;
     color:rgba(150,240,200,0.92); text-align:left;
     opacity:0; transition:opacity 0.8s ease;
     pointer-events:none;
@@ -342,8 +342,8 @@
 </head>
 <body>
 <div class="header">
-  <h1 class="eyebrow">Eukaryotic Transcription</h1>
-  <p class="title">RNA Polymerase <span>II</span></p>
+  <h1 class="eyebrow">Karyon MK-II</h1>
+  <p class="title">RNA Polymerase II Simulator</p>
   <p class="subtitle">mRNA Synthesis · Nucleoplasm</p>
 </div>
 <div class="dish-wrap">
@@ -1833,7 +1833,7 @@ function drawNucleoplasmDNA() {
     ctx.save();
     ctx.globalAlpha = dnaAlpha();
     const fontPx = nucR*0.050;
-    ctx.font = `bold ${fontPx.toFixed(1)}px 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif`;
+    ctx.font = `bold ${fontPx.toFixed(1)}px 'Roboto','Noto Sans',system-ui,sans-serif`;
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
     const labelAt = (t, phaseOffset, txt, col) => {
       const p = dnaPathAt(t);
@@ -3402,7 +3402,7 @@ function drawMrnaExportChain() {
         ctx.restore();
         // the letter itself
         ctx.save();
-        ctx.font = `bold ${(nucR*0.032).toFixed(1)}px 'Inter','Roboto','Segoe UI','Helvetica Neue',system-ui,sans-serif`;
+        ctx.font = `bold ${(nucR*0.032).toFixed(1)}px 'Roboto','Noto Sans',system-ui,sans-serif`;
         ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
         ctx.fillStyle = 'rgba(255,228,120,0.97)';
         ctx.shadowColor = 'rgba(255,200,80,0.75)';
