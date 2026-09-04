@@ -4,40 +4,45 @@
 
 # 🧬 Karyon MK-II
 
-Interactive RNA Polymerase II simulator visualizing eukaryotic transcription, mRNA processing, and gene expression.
+### *Interactive Eukaryotic Transcription Simulator*
+
+> An interactive simulator visualizing RNA Polymerase II-mediated transcription, mRNA processing, nuclear export, and gene expression.
+
+**🧬 Transcription · 🧪 mRNA Processing · 🔬 Gene Expression**
 
 ---
 
-## ✨ Features
+## ✦ Features
 
-* **Transcription Simulation:** Visualize RNA Polymerase II initiation, elongation, and termination.
-* **mRNA Processing:** Explore 5′ capping, poly(A) tail addition, and RNA splicing.
-* **Cellular Transport:** Follow mRNA export from the nucleus to ribosome binding.
-* **Responsive Design:** Optimized for desktop and mobile devices.
+**🧬 Transcription Simulation**  
+Visualize RNA Polymerase II initiation, elongation, and termination.
+
+**🧪 mRNA Processing**  
+Explore 5′ capping, poly(A) tail addition, and RNA splicing.
+
+**🚀 Cellular Transport**  
+Follow mRNA export from the nucleus to ribosome binding.
+
+**📱 Responsive Design**  
+Optimized for desktop and mobile devices.
 
 ---
 
-## 🚀 Built & Hosting
-* **Repository:** GitHub
-* **Hosting:** GitHub Pages
+## 🧬 Core Concepts
+
+**RNA Polymerase II · Transcription · 5′ Capping · Polyadenylation · RNA Splicing · Nuclear Export · Gene Expression**
 
 ---
 
-## 🛠️ Credits & Acknowledgments
+## ⚙️ Technology
 
-* **Claude Opus 4.8:** Debugging, code generation & architecture.
-* **MoonShot AI:** Code improvisation & rapid prototyping.
-* **Open AI:** Scientific debugging, testing & logic optimization.
----
+**HTML5 · CSS3 · JavaScript**
 
-##  Author
-
-* **Draven Ashcroft**
-  * M.Sc. Ag. Entomology, ASRB NET
-  * DIPS Chain of Institutions
+**Source:** GitHub  
+**Hosting:** GitHub Pages
 
 ---
 
 ## 📜 License
 
-GPL-3.0
+**GNU General Public License v3.0 (GPL-3.0)**
