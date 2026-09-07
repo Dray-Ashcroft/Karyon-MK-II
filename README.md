@@ -8,9 +8,9 @@
 
 > **Karyon MK-II** is an interactive visualization exploring **RNA Polymerase II-mediated transcription, mRNA processing, nuclear export, and gene expression**.
 >
-> 🧬 **Transcription** · 🧪 **mRNA Processing** · 🔬 **Gene Expression**
+🧬 **Transcription** · 🧪 **mRNA Processing** · 🔬 **Gene Expression**
 
-**🔬 [Explore the Simulation](YOUR-LINK-HERE)**
+**🔬 [Explore the Simulation](https://karyon-mk-ii.dray-ashcroft.workers.dev/)**
 
 ---
 
