@@ -1,14 +1,16 @@
 <p align="center">
-  <img src="assets/repo-banner.png" alt="Karyon MK-II Banner" width="100%">
+  <img src="assets/repo-banner.png" alt="Karyon MK-II — Interactive Eukaryotic Transcription Simulator" width="100%">
 </p>
 
 # 🧬 Karyon MK-II
 
 ### *Interactive Eukaryotic Transcription Simulator*
 
-> An interactive simulator visualizing RNA Polymerase II-mediated transcription, mRNA processing, nuclear export, and gene expression.
+> **Karyon MK-II** is an interactive visualization exploring **RNA Polymerase II-mediated transcription, mRNA processing, nuclear export, and gene expression**.
+>
+> 🧬 **Transcription** · 🧪 **mRNA Processing** · 🔬 **Gene Expression**
 
-**🧬 Transcription · 🧪 mRNA Processing · 🔬 Gene Expression**
+**🔬 [Explore the Simulation](YOUR-LINK-HERE)**
 
 ---
 
@@ -20,11 +22,14 @@ Visualize RNA Polymerase II initiation, elongation, and termination.
 **🧪 mRNA Processing**  
 Explore 5′ capping, poly(A) tail addition, and RNA splicing.
 
-**🚀 Cellular Transport**  
-Follow mRNA export from the nucleus to ribosome binding.
+**🚀 Nuclear Export**  
+Follow processed mRNA from the nucleus to the cytoplasm.
+
+**🔬 Gene Expression**  
+Visualize the transition from transcription to ribosome-mediated translation.
 
 **📱 Responsive Design**  
-Optimized for desktop and mobile devices.
+Optimized for modern desktop and mobile devices.
 
 ---
 
@@ -38,11 +43,11 @@ Optimized for desktop and mobile devices.
 
 **HTML5 · CSS3 · JavaScript**
 
-**Source:** GitHub  
+**Repository:** GitHub & Codeberg  
 **Hosting:** GitHub Pages
 
 ---
 
 ## 📜 License
 
-**GNU General Public License v3.0 (GPL-3.0)**
+Distributed under the **GNU General Public License v3.0 (GPL-3.0)**.
